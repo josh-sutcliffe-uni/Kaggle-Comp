@@ -1,0 +1,9 @@
+,train,test
+images,63660.0,29443.0
+median width (px),84.0,82.0
+median height (px),80.0,80.0
+small images (%),6.5,8.2
+greyscale (%),1.6,1.4
+mean brightness (0-255),110.3,110.4
+median sharpness,489.8,484.6
+blurry (%),1.4,1.1
