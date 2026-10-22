@@ -1,2 +1,4 @@
 # Ignore all Markdown files
 *.md
+# Split CSVs are rebuilt by the notebook from RANDOM_SEED
+splits/
