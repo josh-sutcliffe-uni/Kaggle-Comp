@@ -1,8 +1,12 @@
 # Ignore all Markdown files
+md_files/
 *.md
+!kaggle_notebooks/Description.md
 # Split CSVs are rebuilt by the notebook from RANDOM_SEED
 splits/
 # Model weight files are large (a ResNet-18 is about 45 MB), so they are not committed
 models/
 # ignore Mac system files 
 .DS_Store
+# Ignore old backup files
+old_backups/
