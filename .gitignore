@@ -2,11 +2,19 @@
 md_files/
 *.md
 !kaggle_notebooks/Description.md
+!README.md
 # Split CSVs are rebuilt by the notebook from RANDOM_SEED
 splits/
 # Model weight files are large (a ResNet-18 is about 45 MB), so they are not committed
-models/
+# except the two that kaggle_comp.ipynb loads (sections 3.7 and 4.6).
+/models/*
+!/models/baseline_cnn_best.pt
+!/models/resnet18_final_best.pt
+# The weights saved by each Kaggle run stay ignored
+kaggle_notebooks/**/models/
 # ignore Mac system files 
 .DS_Store
 # Ignore old backup files
 old_backups/
+# ignore Word documents
+*.docx

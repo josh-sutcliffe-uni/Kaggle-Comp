@@ -1,0 +1,4 @@
+method,mistakes,accuracy
+normal,82,0.9935575109993715
+mirrored only,95,0.9925361407919547
+average (TTA),77,0.9939503456945318
