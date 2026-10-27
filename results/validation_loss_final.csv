@@ -1,0 +1,2 @@
+model,validation_loss,validation_accuracy,predict_minutes,evaluate_minutes
+ResNet-18 run 6 (final),0.02199169302782678,0.9935575109993715,5.515091976349989,5.179871189300077

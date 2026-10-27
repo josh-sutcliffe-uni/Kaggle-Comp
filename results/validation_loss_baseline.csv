@@ -1,0 +1,2 @@
+model,validation_loss,validation_accuracy,predict_minutes,evaluate_minutes
+Baseline CNN,0.13096496591954432,0.9546668761785041,1.638214067366789,1.6678869777167469
