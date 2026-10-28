@@ -12,6 +12,8 @@ The notebooks in this folder were run on Kaggle using its free Tesla T4 GPU inst
 | 6 | `resnet-18_notebook_run6_128px_20epochs.ipynb` | `resnet-18_results_run6_128px-imgsize_20epochs/` | 17 fine-tuning epochs (20 in total); **final model** | 99.36% | 0.9747 |
 | 8 | `resnet-18_notebook_run8_128px-noaug.ipynb` | `resnet-18_results_run8_128px-noaug/` | no augmentation | 99.29% | 0.9696 |
 
+There are no runs 2 and 7: both were mis-runs (run 7 was a first attempt at the no-augmentation run that was not saved), so they were not used or submitted.
+
 Each results folder holds what the run saved on Kaggle:
 - `figures/`: the training history (`resnet18_history.csv`, `resnet-18_history.csv` in run 8) and the learning-curve figure.
 - `submissions/`: the submission file uploaded to Kaggle.

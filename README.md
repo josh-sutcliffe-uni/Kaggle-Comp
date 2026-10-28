@@ -8,13 +8,15 @@ Coursework for the ENGE 707 Kaggle competition: classify close-up crops of cat a
 | Baseline CNN (from scratch, 64 px, laptop CPU) | 95.47% | 0.9338 |
 | ResNet-18, run 6 (pretrained, 128 px, Kaggle GPU) - final model | 99.36% | 0.9747 |
 
+**Report:** `Assessment3_Report_Full_Draft.docx` (submitted separately; Word files are not in git). Its figures are the PNG files in `figures/` and its tables use the numbers printed by `kaggle_comp.ipynb` and saved in `results/`.
+
 ## Files
 | Path | What it is |
 |---|---|
 | `kaggle_comp.ipynb` | Main notebook, Tasks 1-6: data exploration, preprocessing, models, training analysis, evaluation and results analysis. Runs on the laptop CPU. |
 | `kaggle_notebooks/` | The ResNet-18 runs trained on a Kaggle GPU, with their results. See `kaggle_notebooks/Description.md`. |
 | `results/` | Tables saved by the notebooks: per-image information and information from Task 1 (`images_info.csv`, `image_sharpness.csv`, saved so the images are only scanned once), training histories, predictions and metrics. |
-| `figures/` | Figures saved by the notebook. |
+| `figures/` | Figures saved by the notebook, plus `pipeline_diagram.png` (Figure 5 in the report), which was made separately for the report. |
 | `submissions/` | Main submission files uploaded to Kaggle. |
 | `evidence/` | Screenshots of the Kaggle submissions and leaderboard. |
 | `models/` | Only the two weight files the notebook loads: `baseline_cnn_best.pt` and `resnet18_final_best.pt`. |
